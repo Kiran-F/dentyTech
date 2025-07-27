@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Oswald:wght@200..700&family=Patrick+Hand&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    /* background-color: wheat; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+#nav2 p{
+    font-family: Patrick Hand, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+#nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav1 p, #nav1 i{
+    font-size: 1rem;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+nav button{
+    padding: 7px 12px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1.5px solid black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#btn2{
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+h1{
+    font-size: 7rem;
+    text-transform: uppercase;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+img{
+    height: 290px;
+    width: 230px;
+    /* object-position: top; */
+    object-fit: cover;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+img:nth-child(3){
+    transform: translate(-50%, -50%) rotate(-32deg);
+    transition: all 1s ease-in-out 0.3s;
+}
+img:nth-child(4){
+    transform: translate(-50%, -50%) rotate(-24deg);
+    transition: all 1s ease-in-out 0.3s;
+}
+img:nth-child(5){
+    transform: translate(-50%, -50%) rotate(-16deg);
+    transition: all 1s ease-in-out 0.3s;
+}
+img:nth-child(6){
+    transform: translate(-50%, -50%) rotate(-8deg);
+    transition: all 1s ease-in-out 0.3s;
+}
+img:nth-child(7){
+    transform: translate(-50%, -50%) rotate(0deg);
+    transition: all 1s ease-in-out 0.3s;
+}
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+#btm-right{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+#socials{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+a{
+    color: black;
+}
+
